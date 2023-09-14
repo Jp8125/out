@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'out';
+  fun2(val:string){
+
+     console.log(val);
+
+  }
 }

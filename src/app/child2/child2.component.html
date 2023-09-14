@@ -1,0 +1,33 @@
+
+<div *ngFor="let item of datarr | paginate: { itemsPerPage: 4, currentPage: p }">
+  <p>{{item.productId}}</p>
+  <p>{{item.name}}</p>
+  <p>{{item.price}}</p>
+  <p>{{item.status}}</p>
+  <button (click)="remove(item.productId)">delete</button>
+</div>
+<pagination-controls (pageChange)="p = $event" ></pagination-controls>
+<form  [formGroup]="datatopost">
+<input type="text" formControlName="name">
+<input type="number" formControlName="price">
+<select formControlName="status">
+  <option value="Instock">Instock</option>
+</select>
+<input type="datetime-local" formControlName="createdDate">
+</form>
+<button (click)="upload()">add</button>
+<p>{{datatopost.value|json}}</p>
+<!-- <select name="dir" id="dir" [(ngModel)]="dir" (change)="fun(dir)">
+  <option  *ngFor="let item of filter.Directors">{{item}}</option>
+</select>
+<select name="dr2" id="drop">
+  <option value="" *ngFor="let movi of flist">{{movi.MovieName}}</option>
+</select> -->
+<!-- <div *ngFor="let item of removedlist">
+  <p>
+    {{item[0].id}}
+  </p>
+  <button (click)="add(item.id)">undo</button>
+  </div> -->
+
+

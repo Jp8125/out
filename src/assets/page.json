@@ -1,0 +1,72 @@
+[
+    {
+      "id": 1366897,
+      "name": "Suryakanta Singh",
+      "email": "suryakanta_singh@schuppe.example",
+      "gender": "male",
+      "status": "inactive"
+    },
+    {
+      "id": 1366895,
+      "name": "Diptendu Namboothiri",
+      "email": "diptendu_namboothiri@christiansen.example",
+      "gender": "male",
+      "status": "inactive"
+    },
+    {
+      "id": 1366894,
+      "name": "Dr. Aditeya Sinha",
+      "email": "aditeya_sinha_dr@gutmann-schamberger.test",
+      "gender": "male",
+      "status": "active"
+    },
+    {
+      "id": 1366892,
+      "name": "Gajabahu Mehrotra",
+      "email": "mehrotra_gajabahu@zemlak-johns.example",
+      "gender": "female",
+      "status": "active"
+    },
+    {
+      "id": 1366891,
+      "name": "Mohana Devar",
+      "email": "devar_mohana@gulgowski-skiles.example",
+      "gender": "male",
+      "status": "active"
+    },
+    {
+      "id": 1366890,
+      "name": "Rep. Suma Singh",
+      "email": "rep_singh_suma@zulauf.example",
+      "gender": "female",
+      "status": "inactive"
+    },
+    {
+      "id": 1366889,
+      "name": "Abhaya Shukla",
+      "email": "shukla_abhaya@zemlak-crona.test",
+      "gender": "female",
+      "status": "inactive"
+    },
+    {
+      "id": 1366888,
+      "name": "Bhudev Sethi",
+      "email": "bhudev_sethi@breitenberg.test",
+      "gender": "female",
+      "status": "active"
+    },
+    {
+      "id": 1366886,
+      "name": "Chaanakya Ganaka",
+      "email": "ganaka_chaanakya@lemke.example",
+      "gender": "male",
+      "status": "active"
+    },
+    {
+      "id": 1366885,
+      "name": "Heema Varma",
+      "email": "varma_heema@turner.test",
+      "gender": "female",
+      "status": "inactive"
+    }
+  ]
